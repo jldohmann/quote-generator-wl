@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/static/styles.css">
+    </head>
+    <body>
+        <div class="quote_div">
+            <wolfram:slot id='quote' />
+        </div>
+
+        <button type="submit" onClick="refreshPage()">
+            New Quote!
+        </button>
+    </body>
+    <script>
+        function refreshPage() {
+            window.location.reload();
+        }
+    </script>
+</html>
